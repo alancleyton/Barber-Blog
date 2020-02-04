@@ -1,0 +1,32 @@
+section.testemunhas{
+    max-width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.testemunhas-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.testemunha{
+    flex: 1 350px;
+    margin: 20px 40px;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.testemunha img{
+    width: 150px;
+    height: 150px;
+    margin: 10px auto 0 auto;
+    border-radius: 50%;
+}
+
+
+
+.testemunha p{
+    padding: 20px;
+    color: #7c7c7c;
+    line-height: 1.5;
+}

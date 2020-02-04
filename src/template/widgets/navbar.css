@@ -1,0 +1,45 @@
+div.navbar-bg{
+    background-color: var(--tundora);
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.navbar-logo h1{
+    font-size: 2em;
+    font-family: var(--monoton);
+    font-weight: bold;
+    display: block;
+    letter-spacing: 0.2em;
+}
+
+.navbar-logo a{
+    margin: 0 10px;
+    color: white;
+}
+
+.navbar-logo i{
+    font-size: 1.50em;
+}
+
+.navbar-items ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-items a{
+    font-size: 1.2em;
+    display: block;
+    padding: 15px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}

@@ -1,0 +1,38 @@
+div.banner{
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+
+    background: url('../../assets/img/banner.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.banner-info-bg{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.banner-info{
+    max-width: 960px;
+    margin: 0 auto;
+    color: white;
+}
+
+.banner-info h1{
+    width: 300px;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    font-size: 2.50em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-family: var(--bebas);
+    border: solid 10px white;
+}
+
+.banner-info p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.50em;
+}

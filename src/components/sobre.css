@@ -1,0 +1,41 @@
+section.sobre{
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+
+    max-width:960px;
+    margin: 100px auto 0 auto;
+    padding: 60px 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-info{
+    flex: 1 300px;
+    margin: 0 10px;
+}
+
+.sobre-img{
+    flex: 2 160px;
+    margin: 0 10px;
+}
+
+.sobre-img1{
+    flex: 1 200px;
+}
+
+.sobre-img1 div{
+    margin: 10px 0;
+}
+
+.sobre-info h1{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.sobre-info p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}

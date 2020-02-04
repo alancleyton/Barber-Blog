@@ -1,0 +1,22 @@
+div.header-infobar-bg{
+    background-color: var(--mirage);
+    box-sizing: border-box;
+}
+
+.header-infobar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.header-infobar p, .header-infobar a{
+    margin: 0 10px 10px 10px;
+    color: white;
+    letter-spacing: 3px;
+}
+

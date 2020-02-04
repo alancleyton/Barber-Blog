@@ -1,0 +1,12 @@
+:root {
+    --mirage: #1a2228;
+    --tundora: #463d3e;
+    --alegreya: 'Alegreya Sans', sans-serif;
+    --bebas: 'Bebas Neue', cursive;
+    --monoton: 'Monoton', cursive;
+
+
+    --shadow:
+        0 2px 12px 0 rgba(0, 0, 0, 0.1),
+        0 2px 29px 0 rgba(0, 0, 0, 0.6);
+}

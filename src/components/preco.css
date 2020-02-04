@@ -1,0 +1,50 @@
+section.preco{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preco-item{
+    flex: 1 300px;
+    margin: 10px;
+    padding: 10px;
+    border: solid 4px white;
+}
+
+.preco-item h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+.preco-item span{
+    font-size: 3em;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+    max-width: 250px;
+    text-align: center;
+    padding: 10px 0 5px 0;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+.preco-item sup{
+    font-size: 1.5rem;
+}
+
+.preco-item ul{
+    margin: 20px 0;
+    line-height: 2;
+}
+
+.preco-item li{
+    text-align: center;
+    font-size: 1.5em;
+    color: #332824;
+    font-style: italic;
+}
